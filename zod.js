@@ -6,3 +6,5 @@ const mySchema = z.string();
 console.log(mySchema.parse("Tejas"))
 
 console.log(mySchema.safeParse("Tejas"));
+
+console.log(mySchema.safeParse("Tej"));
